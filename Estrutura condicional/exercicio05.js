@@ -1,10 +1,21 @@
 let n1 = Number ( prompt(" Digite o primeiro número da sua sequência"));
 let n2 = Number ( prompt(" Digite o segundo número da sua sequência"));
 let n3 = Number ( prompt(" Digite o terceiro número da sua sequência"));
+// n1 = 3;
+// n2 = 2;
+// n3 =1; 
 
+// 3 2 1 - decrescente
+//123 - crescente
 
 if ( n1 < n2 && n2 < n3 ) {
      alert(" Os números estão em ordem crescente");
-} else{
+}
+// if (n1 > n2 && < n3) {
+     
+// }
+
+
+else{
      alert(" Os números não estão em ordem crescente");
 }
